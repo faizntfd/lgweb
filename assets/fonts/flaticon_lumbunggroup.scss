@@ -1,0 +1,45 @@
+$flaticon_lumbunggroup-font: "flaticon_lumbunggroup";
+
+@font-face {
+    font-family: $flaticon_lumbunggroup-font;
+    src: url("./flaticon_lumbunggroup.woff2?57d870213399b59a2e0c8e30c2e1b729") format("woff2"),
+url("./flaticon_lumbunggroup.woff?57d870213399b59a2e0c8e30c2e1b729") format("woff"),
+url("./flaticon_lumbunggroup.eot?57d870213399b59a2e0c8e30c2e1b729#iefix") format("embedded-opentype"),
+url("./flaticon_lumbunggroup.ttf?57d870213399b59a2e0c8e30c2e1b729") format("truetype"),
+url("./flaticon_lumbunggroup.svg?57d870213399b59a2e0c8e30c2e1b729#flaticon_lumbunggroup") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_lumbunggroup !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_lumbunggroup-map: (
+    "coalb": "\f101",
+    "miningb": "\f102",
+    "itb": "\f103",
+    "solarb": "\f104",
+    "travelb": "\f105",
+);
+
+.flaticon-coalb:before {
+    content: map-get($flaticon_lumbunggroup-map, "coalb");
+}
+.flaticon-miningb:before {
+    content: map-get($flaticon_lumbunggroup-map, "miningb");
+}
+.flaticon-itb:before {
+    content: map-get($flaticon_lumbunggroup-map, "itb");
+}
+.flaticon-solarb:before {
+    content: map-get($flaticon_lumbunggroup-map, "solarb");
+}
+.flaticon-travelb:before {
+    content: map-get($flaticon_lumbunggroup-map, "travelb");
+}

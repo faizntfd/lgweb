@@ -1,0 +1,47 @@
+/*!
+*    ______ _       _   _
+*    |  ____| |     | | (_)
+*    | |__  | | __ _| |_ _  ___ ___  _ __
+*    |  __| | |/ _` | __| |/ __/ _ \| '_ \
+*    | |    | | (_| | |_| | (_| (_) | | | |
+*    |_|    |_|\__,_|\__|_|\___\___/|_| |_|
+*
+*         https://www.flaticon.com
+*/
+
+@font-face {
+    font-family: "flaticon_lumbunggroup";
+    src: url("./flaticon_lumbunggroup.woff2?57d870213399b59a2e0c8e30c2e1b729") format("woff2"),
+url("./flaticon_lumbunggroup.woff?57d870213399b59a2e0c8e30c2e1b729") format("woff"),
+url("./flaticon_lumbunggroup.eot?57d870213399b59a2e0c8e30c2e1b729#iefix") format("embedded-opentype"),
+url("./flaticon_lumbunggroup.ttf?57d870213399b59a2e0c8e30c2e1b729") format("truetype"),
+url("./flaticon_lumbunggroup.svg?57d870213399b59a2e0c8e30c2e1b729#flaticon_lumbunggroup") format("svg")
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_lumbunggroup !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-coalb:before {
+    content: "\f101";
+}
+.flaticon-miningb:before {
+    content: "\f102";
+}
+.flaticon-itb:before {
+    content: "\f103";
+}
+.flaticon-solarb:before {
+    content: "\f104";
+}
+.flaticon-travelb:before {
+    content: "\f105";
+}
+
