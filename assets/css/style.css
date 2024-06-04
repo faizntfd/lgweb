@@ -365,7 +365,7 @@ input[type=checkbox], input[type=radio] {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-color: #010101;
+  background-color: #ffffff;
   background-repeat: no-repeat;
   background-position: center center; }
   .preloader .custom-loader {
@@ -373,7 +373,7 @@ input[type=checkbox], input[type=radio] {
     height: 75px;
     border-radius: 50%;
     background-color: transparent;
-    border: 2px solid var(--heading-color);
+    border: 2px solid var(--white-color);
     border-top: 2px solid var(--primary-color);
     border-bottom: 2px solid var(--primary-color);
     -webkit-animation: 1s preloader linear infinite;
