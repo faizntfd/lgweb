@@ -7668,6 +7668,7 @@ a.theme-btn {
   left: 0px;
   top: 0px;
   z-index: 999;
+  height: 100%;
   width: 100%;
   -webkit-transition: all 500ms ease;
   -o-transition: all 500ms ease;
@@ -8392,7 +8393,8 @@ a.theme-btn {
 .hero-area-two {
   z-index: 1;
   overflow: hidden;
-  position: relative; }
+  position: relative;
+  }
   .hero-area-two:after {
     z-index: -1;
     content: '';
@@ -10399,7 +10401,7 @@ a.theme-btn {
     font-size: 20px;
     line-height: 55px;
     border-radius: 14px;
-    background: var(--secondary-color);
+    background: var(--primary-color);
     position: absolute;
     left: calc(50% - 27px);
     top: -27px; }
